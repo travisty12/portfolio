@@ -11,6 +11,7 @@ h1, h2, h3, h4 {
   box-shadow: 0px 0px 16px 16px #00585F inset;
 }
 
+
 .well {
   border-radius: 20px;
 }
@@ -135,7 +136,15 @@ li {
 #link-intro {
   background-image: radial-gradient(ellipse farthest-corner at center, #FFFCC4 90%, white);
   border-color: #A6A47F;
-  margin: 20px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+
+#link-intro h2 {
+  font-size: 38pt;
+  padding-bottom: 5px;
 }
 
 #link-format div div .well {
