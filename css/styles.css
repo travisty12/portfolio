@@ -38,11 +38,41 @@ a, a:link, a:visited {
   border-color: #A6A47F;
 }
 
-#link-format div div div img {
+.img-hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
   max-width: 75%;
+  height: auto;
   border-radius: 10px;
+  opacity: 1;
+  transition: .5s ease;
+}
+
+.container:hover > .img-hover {
+  opacity: 0.3;
+}
+
+.container:hover > .pop-up-desc {
+  opacity: 1;
+}
+
+.well .container {
+  position: relative;
+  width: 100%;
+}
+
+.pop-up-desc {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(0, -100px);
+  text-align: center;
+}
+.text {
+  background-color: #68AB97;
+  color: white;
+  font-size: 16px;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding: 10px;
 }
