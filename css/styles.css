@@ -78,13 +78,15 @@ a, a:link, a:visited {
 #learnmore:hover {
   transition: 1s;
   width: 45%;
-  height: 900px;
+  height: 1150px;
 }
+
 
 #janepic {
   width: 80%;
   height: auto;
   border-radius: 20px;
+  float: right;
 }
 
 .about {
