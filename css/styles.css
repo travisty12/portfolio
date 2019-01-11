@@ -1,0 +1,24 @@
+h1, h2, h3, h4 {
+  text-align: center;
+
+}
+
+body {
+  background-color: #EAB5CE;
+}
+
+.container {
+  background-color: #CEB5DE;
+}
+
+#link-well {
+  background-color: #EAB5CE;
+}
+
+#link-intro {
+  background-color: #F89DA4;
+}
+
+#link-format div div .well {
+  background-color: #E29FC6;
+}
