@@ -3,15 +3,21 @@ h1, h2, h3, h4 {
 
 }
 
+.well {
+  border-radius: 20px;
+}
+
 body {
   background-color: #F0EDBB;
 }
 
 .container {
   background-color: #FFFCC4;
+  border-radius: 20px;
 }
 
 #link-well {
+  margin: 30px;
   background-color: #68AB97;
   border-color: #00585F;
 }
@@ -19,9 +25,11 @@ body {
 #link-intro {
   background-color: #FFFCC4;
   border-color: #A6A47F;
+  margin: 20px;
 }
 
 #link-format div div .well {
+  margin: 20px;
   background-color: #FFFCC4;
   border-color: #A6A47F;
 }
