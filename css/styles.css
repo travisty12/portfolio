@@ -33,3 +33,11 @@ body {
   background-color: #FFFCC4;
   border-color: #A6A47F;
 }
+
+#link-format div div div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  max-width: 75%;
+}
