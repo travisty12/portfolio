@@ -4,21 +4,24 @@ h1, h2, h3, h4 {
 }
 
 body {
-  background-color: #EAB5CE;
+  background-color: #F0EDBB;
 }
 
 .container {
-  background-color: #CEB5DE;
+  background-color: #FFFCC4;
 }
 
 #link-well {
-  background-color: #EAB5CE;
+  background-color: #68AB97;
+  border-color: #00585F;
 }
 
 #link-intro {
-  background-color: #F89DA4;
+  background-color: #FFFCC4;
+  border-color: #A6A47F;
 }
 
 #link-format div div .well {
-  background-color: #E29FC6;
+  background-color: #FFFCC4;
+  border-color: #A6A47F;
 }
