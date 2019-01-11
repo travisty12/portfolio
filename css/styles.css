@@ -3,6 +3,14 @@ h1, h2, h3, h4 {
 
 }
 
+#introbox .well:hover {
+  background-image: url("../img/selfie.png");
+  background-color: #00585F;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 16px 16px 16px 16px #00585F inset;
+}
+
 .well {
   border-radius: 20px;
 }
@@ -43,6 +51,65 @@ a, a:link, a:visited {
   margin-top: 50px;
   margin-bottom: 110px;
   width: 300px;
+}
+
+#learnmore {
+  transition: 1s;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 50px;
+  background-image: radial-gradient(ellipse farthest-corner at center, #68AB97 90%, grey);
+  border: 1px #00585F solid;
+  border-radius: 20px;
+}
+
+#learnmore p {
+  padding-top: 15px;
+  margin-left: 30%;
+  color: white;
+}
+
+#learnmore .about {
+  display: none;
+}
+
+#learnmore:hover {
+  transition: 1s;
+  width: 50%;
+  height: 800px;
+}
+
+#janepic {
+  width: 80%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.about {
+  text-align: left;
+  margin: 20px;
+  color: white;
+}
+
+.about p {
+  font-size: 18pt;
+}
+.about h3 {
+  font-size: 24pt;
+}
+
+li {
+  margin-bottom: 8px;
+  margin-left: -30px;
+}
+
+#learnmore:hover .about {
+  display: block;
+}
+
+#learnmore:hover #lm-text {
+  display: none;
 }
 
 #introbox .well #hello h1 {
