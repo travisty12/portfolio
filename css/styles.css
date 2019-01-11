@@ -15,6 +15,19 @@ a, a:link, a:visited {
   color: black;
 }
 
+#introbox .well {
+  background-image: radial-gradient(ellipse farthest-corner at center, #68AB97 90%, grey);
+  margin: 30px;
+  border-color: #00585F;
+  height: 670px;
+}
+
+#introbox .well h1, #introbox .well h3 {
+  margin-bottom: 50px;
+  margin-top: 75px;
+  color: white;
+}
+
 .container {
   background-color: #FFFCC4;
   border-radius: 20px;
@@ -22,19 +35,19 @@ a, a:link, a:visited {
 
 #link-well {
   margin: 30px;
-  background-color: #68AB97;
+  background-image: radial-gradient(circle farthest-corner at center, #68AB97 95%, grey);
   border-color: #00585F;
 }
 
 #link-intro {
-  background-color: #FFFCC4;
+  background-image: radial-gradient(ellipse farthest-corner at center, #FFFCC4 90%, white);
   border-color: #A6A47F;
   margin: 20px;
 }
 
 #link-format div div .well {
   margin: 20px;
-  background-color: #FFFCC4;
+  background-image: radial-gradient(ellipse farthest-corner at center, #FFFCC4 90%, white);
   border-color: #A6A47F;
 }
 
@@ -45,6 +58,7 @@ a, a:link, a:visited {
   max-width: 75%;
   height: auto;
   border-radius: 10px;
+  border: 1px #68AB97 solid;
   opacity: 1;
   transition: .5s ease;
 }
