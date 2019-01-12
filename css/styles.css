@@ -4,6 +4,7 @@ h1, h2, h3, h4 {
 }
 
 #introbox .well:not(#hello):not(#logo):hover {
+  transition: 1s;
   background-image: url("../img/selfie.png");
   background-color: #00585F;
   background-repeat: no-repeat;
