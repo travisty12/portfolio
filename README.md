@@ -18,8 +18,7 @@ _A semi-satirical info tab can be expanded by scrolling over the 'Learn More' se
 
 ## Known Bugs
 
-_Scrolling over the main tab can cause several elements to display 'box-shadow' effects -- not code-breaking, but unintentional._
-_My attempts to change the margins or positioning of the 'div.about p' elements were fruitless. Undoubtedly, it is overridden by CSS somewhere that I'm not seeing, but it's not overly concerning -- to be fixed at a later date._
+_My attempts to change the margins or positioning of the 'div.about p' elements were fruitless. Undoubtedly, I'm calling it wrong in some way that I'm not seeing, but it's not overly concerning -- to be fixed at a later date._
 
 ## Support and contact details
 
