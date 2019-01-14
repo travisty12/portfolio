@@ -6,7 +6,7 @@
 
 ## Description
 
-_View a live site at travisty12.github.io/portfolio/_
+_View a live site at https://travisty12.github.io/portfolio/_
 _This is my portfolio, made in one day as part of Epicodus' independent coding projects._
 _The logo at the top links to my GitHub page (written out in the next section), and the screenshot samples of my previous projects contain links to the respective project's live GitHub Page._
 _A semi-satirical info tab can be expanded by scrolling over the 'Learn More' section._
